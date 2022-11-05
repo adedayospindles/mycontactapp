@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Flutter Contact List',
+      title: 'My Contact',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.grey[900],
@@ -19,11 +19,13 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: TextTheme(
-          headline1: TextStyle(fontFamily: 'Poppins',fontSize: 24, color: Colors.white),
-          headline6: TextStyle(fontFamily: 'Poppins',fontSize: 16, color: Colors.green),
+          headline1: TextStyle(
+              fontFamily: 'Poppins', fontSize: 24, color: Colors.white),
+          headline6: TextStyle(
+              fontFamily: 'Poppins', fontSize: 16, color: Colors.green),
         ),
       ),
-      home: MyHomePage(title: 'My Contact List'),
+      home: MyHomePage(title: 'Adedayo Spindle Agboola'),
     );
   }
 }

@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   FavAvatar(
                       link:
-                          "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/00/001ccef182d7504961fb1bed6593a58cc5dba110_full.jpg"),
+                          "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/58/5860b7c464f4f8da96e616eb7b50e25ab32f915e_full.jpg"),
                   FavAvatar(
                       link:
                           "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/40/405eb712c10aab48663509ed57163039119e4341_full.jpg"),
